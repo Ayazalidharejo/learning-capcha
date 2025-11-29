@@ -165,7 +165,7 @@ export default function Login() {
       {step === 1 && (
         <form onSubmit={submitStep1} className="grid grid-cols-1 gap-3">
           <div>
-            <label className="block text-sm font-medium mb-1">Email</label>
+            <label className="block text-sm font-medium mb-1">Username</label>
             <input
               className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Enter your email"
